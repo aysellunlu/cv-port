@@ -1,0 +1,24 @@
+.footer-bg-color {
+  background-color: #f1f5f8;
+  box-shadow: 0px 4px 100px 20px #d7e3ee;
+}
+.phone-text {
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+}
+.footer-text-area {
+  background-color: #e3eaef;
+  border-radius: 10px;
+}
+.footer-area-text {
+  color: #256cb2;
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer-menu-text {
+  color: #739cc3;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}

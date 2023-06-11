@@ -1,0 +1,50 @@
+.signup-btn {
+  background-color: #256cb2 !important;
+  font-size: 14px;
+  font-weight: 600 !important;
+  border-color: #256cb2 !important;
+  font-family: "Jost", sans-serif;
+  border: #256cb2 2px solid !important;
+  color: #ffffff;
+}
+.signup-btn:hover {
+  background-color: #256cb2 !important;
+  font-size: 14px;
+  font-weight: 600 !important;
+  border-color: #256cb2 !important;
+  font-family: "Jost", sans-serif;
+  border: #256cb2 2px solid !important;
+  color: #a6c7e5;
+}
+.signin-btn {
+  background-color: #ffffff !important;
+  font-size: 14px;
+  font-weight: 600 !important;
+  border-color: #256cb2 !important;
+  font-family: "Jost", sans-serif;
+  color: #256cb2 !important;
+  border: #256cb2 2px solid !important;
+}
+.signin-btn:hover {
+  background-color: #6ba4de !important;
+  font-size: 14px;
+  font-weight: 600 !important;
+  border-color: #256cb2 !important;
+  font-family: "Jost", sans-serif;
+  color: #256cb2 !important;
+  border: #256cb2 2px solid !important;
+}
+.line-header {
+  border-bottom: #d2e0eb 1px solid;
+  padding-bottom: 10px;
+}
+.tab-menu-text {
+  color: #256cb2 !important;
+  font-family: "Jost", sans-serif;
+  font-weight: 600 !important;
+}
+.tab-menu-text:hover {
+  color: #7f9db5 !important;
+  font-family: "Jost", sans-serif;
+  font-weight: 700 !important;
+}
