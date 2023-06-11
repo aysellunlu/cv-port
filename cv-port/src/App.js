@@ -6,6 +6,7 @@ import Footer from "./Layout/Footer";
 import CompanyLogin from "./Pages/CompanyLogin";
 import UserLogin from "./Pages/UserLogin";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import BeDealer from "./Pages/BeDealer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/homepage" element={<MainPage />} />
           <Route path="/user-login" element={<UserLogin />} />
           <Route path="/company-login" element={<CompanyLogin />} />
+          <Route path="/be-dealer" element={<BeDealer />} />
         </Routes>
       </BrowserRouter>
       <Footer />

@@ -55,15 +55,15 @@ function Footer() {
               <div className="col-8"></div>
               <div className="col justify-content-end row">
                 <div className="col-4">
-                  <img src={Mail} />
+                  <img src={Mail} width={25}/>
                 </div>
-                <div className="col-8">info@cvport.com</div>
+                <div className="col-lg-8 phone-text">info@cvport.com</div>
               </div>
               <div className="col justify-content-end row">
                 <div className="col-4">
-                  <img src={Phone} />
+                  <img src={Phone} width={25}/>
                 </div>
-                <div className="col-8 phone-text">0555 555 55 55</div>
+                <div className="col-lg-8 phone-text">0555 555 55 55</div>
               </div>
             </div>
           </div>

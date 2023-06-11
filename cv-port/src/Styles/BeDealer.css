@@ -1,0 +1,19 @@
+.dealer-header{
+    font-size: 32px;
+    color: #256cb2;
+    font-weight: 600 !important;
+    font-family: "Jost", sans-serif;
+}
+.dealer-text{
+    font-weight: 400 !important;
+    font-family: "Jost", sans-serif;
+}
+.dealer-line{
+    border-bottom: 1px solid #CDDBE9;
+}
+.dealer-header-text{
+    font-size: 24spx;
+    color: #256cb2;
+    font-weight: 600 !important;
+    font-family: "Jost", sans-serif;
+}
