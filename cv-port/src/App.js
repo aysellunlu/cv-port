@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import BeDealer from "./Pages/BeDealer";
 import JobPostingPackage from "./Pages/JobPostingPackage";
 import AboutUs from "./Pages/AboutUs";
+import SSSPage from "./Pages/SSSPage";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/bayi-ol" element={<BeDealer />} />
           <Route path="/ilan-ver" element={<JobPostingPackage />} />
           <Route path="/hakkimizda" element={<AboutUs />} />
+          <Route path="/sikca-sorulan-sorular" element={<SSSPage/>} />
         </Routes>
       </BrowserRouter>
       <Footer />

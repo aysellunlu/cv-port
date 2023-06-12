@@ -83,9 +83,11 @@ function Header() {
           </a>
         </Col>
         <Col>
+        <a href="/sikca-sorulan-sorular">
           <div className="tab-menu-text" type="button">
             S.S.S.
           </div>
+          </a>
         </Col>
         <Col>
           <div className="tab-menu-text" type="button">
