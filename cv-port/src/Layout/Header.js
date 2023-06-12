@@ -76,9 +76,11 @@ function Header() {
           </div>
         </Col>
         <Col>
+        <a href="hakkimizda">
           <div className="tab-menu-text" type="button">
             Hakkımızda
           </div>
+          </a>
         </Col>
         <Col>
           <div className="tab-menu-text" type="button">

@@ -8,6 +8,7 @@ import UserLogin from "./Pages/UserLogin";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import BeDealer from "./Pages/BeDealer";
 import JobPostingPackage from "./Pages/JobPostingPackage";
+import AboutUs from "./Pages/AboutUs";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/firma-girisi" element={<CompanyLogin />} />
           <Route path="/bayi-ol" element={<BeDealer />} />
           <Route path="/ilan-ver" element={<JobPostingPackage />} />
+          <Route path="/hakkimizda" element={<AboutUs />} />
         </Routes>
       </BrowserRouter>
       <Footer />
