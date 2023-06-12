@@ -38,10 +38,24 @@
   border-bottom: #d2e0eb 1px solid;
   padding-bottom: 10px;
 }
+@keyframes homepagemove {
+  from {
+    color: #d9eafa;
+    font-family: "Jost", sans-serif;
+    font-weight: 600 !important;
+    font-size: 12px;
+  }
+  to {
+    color: #256cb2;
+    font-family: "Jost", sans-serif;
+    font-weight: 600 !important;
+  }
+}
 .tab-menu-text {
   color: #256cb2 !important;
   font-family: "Jost", sans-serif;
   font-weight: 600 !important;
+  animation: homepagemove 2s;
 }
 .tab-menu-text:hover {
   color: #7f9db5 !important;

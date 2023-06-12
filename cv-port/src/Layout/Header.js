@@ -12,7 +12,7 @@ import Container from "react-bootstrap/esm/Container";
 
 function Header() {
   return (
-    <div className="container-fluid">
+    <Container>
       <Row className="mt-2 line-header">
         <Col className="col-lg-10 ">
           <Image src={Logo} width={75} />
@@ -27,7 +27,7 @@ function Header() {
                     id="basic-nav-dropdown"
                   >
                     <NavDropdown.Item href="#action/3.1">
-                      <Button className="signup-btn px-5">
+                      <Button className="signup-btn px-5 ">
                         <div className="col px-2"> Üye Ol</div>
                       </Button>
                     </NavDropdown.Item>
@@ -61,6 +61,7 @@ function Header() {
           </Navbar>
         </Col>
       </Row>
+      <div>
       <Row className="mt-3 text-center">
         <Col>
           <div className="tab-menu-text" type="button" href="/homepage">
@@ -103,7 +104,8 @@ function Header() {
           </div>
         </Col>
       </Row>
-    </div>
+      </div>
+    </Container>
   );
 }
 

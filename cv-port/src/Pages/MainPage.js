@@ -12,16 +12,24 @@ import HumanResources from "../Components/HumanResources";
 import SSS from "../Components/SSS";
 import Container from "react-bootstrap/esm/Container";
 import Privileges from "../Components/Privileges";
+import Destination from "../Components/Destination";
 
 function MainPage() {
   return (
     <React.Fragment>
-      <Image src={Banner} width="100%" />
-      <div>
-        <Image src={MainImg1} width="100%" />
-      </div>
-      <AnnouncementMain />
-      <HighLights />
+      <Container>
+        <div className="banner-style">
+           <Image src={Banner} width="100%" />
+        </div>
+        
+        {/* <div >
+          <Image src={MainImg1} width="100%" />
+        </div> */}
+        <Destination/>
+        <AnnouncementMain />
+        <HighLights />
+      </Container>
+
       <Container>
         <Row className="mt-5 mb-5">
           <Col>

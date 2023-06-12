@@ -7,6 +7,7 @@ import "../Styles/MainPage.css";
 function Privileges() {
   return (
     <React.Fragment>
+      <Container>
       <div className="bg-privileges mb-5">
         <Container className="pb-5">
           <div className="privileges-header pb-5 pt-5">
@@ -42,6 +43,7 @@ Api Entegrasyonu
           </Row>
         </Container>
       </div>
+      </Container>
     </React.Fragment>
   );
 }

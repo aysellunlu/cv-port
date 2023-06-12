@@ -5,6 +5,7 @@
 }
 .bg-highlights {
   background-color: #e4ebf1;
+  border-radius: 10px;
 }
 .header-highlights {
   color: #256cb2;
@@ -19,10 +20,24 @@
   border-radius: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.card:hover {
+  background: #c3d2e9;
+  border: #c3d2e9 1px solid;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition-duration: 2s;
+}
 .job-style {
   color: #09075d;
   font-weight: 600;
   font-family: "Jost", sans-serif !important;
+}
+.job-style:hover {
+  color: #3675d3;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Jost", sans-serif !important;
+  transition-duration: 2s;
 }
 .company-name {
   color: #256cb2;
@@ -57,6 +72,7 @@
 }
 .bg-color {
   background-color: #256cb2;
+  border-radius: 10px;
 }
 .header {
   color: white;
@@ -86,19 +102,22 @@
   border-color: #8eb9e4;
 }
 .popular-button:hover {
-  background-color: #8eb9e4 !important;
-  color: #256cb2 !important;
+  background-color: #e7eef5 !important;
+  color: #162533 !important;
   font-weight: 600;
   font-family: "Jost", sans-serif;
-  border-color: #8eb9e4;
+  border-color: #e7eef5;
+  box-shadow: 0px 2px 20px 4px #e7eef5;
+  transition-duration: 1s;
+  
 }
 .form-control {
   color: #256cb2 !important;
   border: #8eb9e4 1px solid !important;
   font-family: "Jost", sans-serif !important;
   font-weight: 600;
-  box-shadow: 0px 4px 100px 20px #E7EEF5;
-
+  box-shadow: 0px 4px 100px 20px #e7eef5;
+ 
 }
 
 .form-select {
@@ -109,6 +128,7 @@
 }
 .bg-privileges {
   background-color: #e4ebf1;
+  border-radius: 10px;
 }
 .privileges-header {
   color: #256cb2;
@@ -158,4 +178,43 @@
   font-weight: normal;
   font-family: "Jost", sans-serif !important;
   color: #256cb2;
+}
+.banner-style {
+  border-radius: 10px;
+}
+
+@keyframes destination-move {
+  from {
+    background-color: #eff3f8;
+    color: #d9eafa;
+    font-family: "Jost", sans-serif;
+    font-weight: 600 !important;
+    font-size: 12px;
+  }
+  to {
+    color: #256cb2;
+    font-family: "Jost", sans-serif;
+    font-weight: 600 !important;
+  }
+}
+
+.destination-block {
+  background-color: #cddbe9;
+  color: #194979;
+  font-family: "Jost", sans-serif !important;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 1;
+  animation: destination-move 2s;
+}
+.destination-block:hover {
+  background-color: #7dacdb;
+  color: #194979;
+  font-family: "Jost", sans-serif !important;
+  font-weight: 600;
+  z-index: 3;
+  font-size: 16px;
+  box-shadow: 0px 4px 50px #2e87da;
+  transition-duration: 2s;
 }

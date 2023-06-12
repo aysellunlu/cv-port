@@ -60,10 +60,6 @@ function CompanyLogin() {
                 <Form.Label>Şifre :</Form.Label>
                 <Form.Control type="password" />
               </Form.Group>
-              <Form.Group
-                className="mb-3"
-                controlId="formBasicCheckbox"
-              ></Form.Group>
               <div
                 className="d-flex flex-row-reverse forget-password mb-3"
                 type="button"
