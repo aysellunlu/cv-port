@@ -31,7 +31,7 @@ function Header() {
                         <div className="col px-2"> Üye Ol</div>
                       </Button>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="/user-login">
+                    <NavDropdown.Item href="/kullanici-girisi">
                       <Button className="signin-btn">
                         <div className="col">
                           <span> Kullanıcı/Firma Giriş</span>
@@ -64,9 +64,11 @@ function Header() {
       <div>
       <Row className="mt-3 text-center">
         <Col>
-          <div className="tab-menu-text" type="button" href="/homepage">
+        <a href="/anasayfa">
+          <div className="tab-menu-text" type="button" >
             Anasayfa
           </div>
+          </a>
         </Col>
         <Col>
           <div className="tab-menu-text" type="button">
@@ -99,9 +101,11 @@ function Header() {
           </div>
         </Col>
         <Col>
+        <a href="/ilan-ver">
           <div className="tab-menu-text" type="button">
             İlan Ver
           </div>
+          </a>
         </Col>
       </Row>
       </div>

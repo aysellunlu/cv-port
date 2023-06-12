@@ -7,6 +7,7 @@ import CompanyLogin from "./Pages/CompanyLogin";
 import UserLogin from "./Pages/UserLogin";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import BeDealer from "./Pages/BeDealer";
+import JobPostingPackage from "./Pages/JobPostingPackage";
 
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainPage />} />
-          <Route path="/homepage" element={<MainPage />} />
-          <Route path="/user-login" element={<UserLogin />} />
-          <Route path="/company-login" element={<CompanyLogin />} />
-          <Route path="/be-dealer" element={<BeDealer />} />
+          <Route path="/anasayfa" element={<MainPage />} />
+          <Route path="/kullanici-girisi" element={<UserLogin />} />
+          <Route path="/firma-girisi" element={<CompanyLogin />} />
+          <Route path="/bayi-ol" element={<BeDealer />} />
+          <Route path="/ilan-ver" element={<JobPostingPackage />} />
         </Routes>
       </BrowserRouter>
       <Footer />

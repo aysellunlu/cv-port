@@ -1,0 +1,136 @@
+.job-posting-card-second {
+  background-color: white;
+  font-family: "Jost", sans-serif !important;
+  font-weight: 400;
+  font-size: 16px;
+  color: #194979;
+  border-radius: 10px;
+  box-shadow: 0px 5px 100px 10px #ebf2fa;
+}
+.job-posting-card-second:hover {
+  background-color: white;
+  font-family: "Jost", sans-serif !important;
+  font-weight: 400;
+  font-size: 18px;
+  color: #194979;
+  border-radius: 10px;
+  box-shadow: 0px 5px 100px 10px #256cb36c;
+  transition-duration: 2s;
+}
+.job-second-card-bg {
+  background-color: #f3f6f8;
+}
+.second-job-header {
+  color: #5986b1;
+  font-weight: 700;
+  font-family: "Jost", sans-serif !important;
+  font-size: 36px;
+}
+.second-job-kdv-text {
+  color: #9eb3c7;
+  font-weight: 700;
+  font-family: "Jost", sans-serif !important;
+  font-size: 18px;
+}
+.job-posting-card-first {
+  background-color: white;
+  font-family: "Jost", sans-serif !important;
+  font-weight: 400;
+  font-size: 18px;
+  color: #194979;
+  border-radius: 10px;
+  box-shadow: 0px 20px 100px 20px #256cb36c;
+}
+.job-posting-card-first:hover {
+  background-color: #deecfb;
+  font-family: "Jost", sans-serif !important;
+  font-weight: 400;
+  font-size: 20px;
+  color: #194979;
+  border-radius: 10px;
+  box-shadow: 0px 20px 100px 20px #256cb36c;
+  transition-duration: 2s;
+}
+.job-first-card-bg {
+  background-color: #f3f9ff;
+}
+.first-job-header {
+  color: #256cb2;
+  font-weight: 700;
+  font-family: "Jost", sans-serif !important;
+  font-size: 36px;
+}
+.first-job-kdv-text {
+  color: #8eb9e4;
+  font-weight: 700;
+  font-family: "Jost", sans-serif !important;
+  font-size: 20px;
+}
+.job-first-card-bg {
+  background-color: #f3f9ff;
+}
+.first-job-header {
+  color: #256cb2;
+  font-weight: 700;
+  font-family: "Jost", sans-serif !important;
+  font-size: 36px;
+}
+.first-job-kdv-text {
+  color: #8eb9e4;
+  font-weight: 700;
+  font-family: "Jost", sans-serif !important;
+  font-size: 20px;
+}
+.more-job-text {
+  color: #7baad8;
+  font-family: "Jost", sans-serif !important;
+}
+.more-job-text:hover {
+    color: #7baad8;
+    font-family: "Jost", sans-serif !important;
+    font-weight: 500;
+    transition-duration: 1s ;
+  }
+.line-job {
+  border-bottom: #cddbe9 1px solid;
+}
+.meet-dealer-bg {
+  background-color: #ffff;
+  border-radius: 10px;
+  border: 1px #fff solid;
+  font-family: "Jost", sans-serif !important;
+  box-shadow: 0px 4px 100px 20px #EAEFF4;
+}
+.meet-dealer-header{
+    color: #256CB2;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Jost", sans-serif !important;
+}
+.meet-dealer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+.meet-box{
+    background-color: #fff;
+    color: #256CB2;
+    font-weight: 700;
+    font-family: "Jost", sans-serif !important;
+border-radius: 20px;
+box-shadow: 0px 4px 100px 20px #c6d8f288;
+font-size: 14px;
+}
+.meet-box:hover{
+    background-color:#e5edf6;
+    color: #256CB2;
+    font-weight: 700;
+    font-family: "Jost", sans-serif !important;
+border-radius: 20px;
+box-shadow: 0px 4px 100px 20px #b5cdef;
+font-size: 14px;
+transition-duration: 1s;
+}
+a {
+    text-decoration: none !important;
+}
