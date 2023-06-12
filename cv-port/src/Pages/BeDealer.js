@@ -44,7 +44,7 @@ function BeDealer() {
         <div className="dealer-header-text mt-5">Bayilik Ön Başvuru Formu</div>
         <Form>
           <Row>
-            <Col>
+            <Col xs={12} lg={4}> 
               <div className="mx-2 mt-5 mb-5">
                 <Form.Group className="mb-3" controlId="formBasicName">
                   <Form.Label>Adınız Soyadınız :</Form.Label>
@@ -60,7 +60,7 @@ function BeDealer() {
                 </Form.Group>
               </div>
             </Col>
-            <Col>
+            <Col xs={12} lg={4}>
               <div className="mx-2 mt-5 mb-5">
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                   <Form.Label>E - posta Adresiniz :</Form.Label>
@@ -80,8 +80,8 @@ function BeDealer() {
                 </div>
               </div>
             </Col>
-            <Col>
-              <div className="mx-5 mt-5 mb-5">
+            <Col xs={12} lg={4}>
+              <div className="mx-2 mt-5 mb-5">
                 <Form.Group
                   className="mb-3"
                   controlId="exampleForm.ControlTextarea1"
