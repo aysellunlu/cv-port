@@ -145,6 +145,15 @@
   box-shadow: 0px 4px 50px #b9cde0;
   border-radius: 10px;
 }
+.priveleges-card:hover {
+  background-color:  #dbe7f4;
+  color: #52575c;
+  font-family: "Jost", sans-serif !important;
+  font-weight: 500;
+  box-shadow: 0px 4px 50px #b9cde0;
+  border-radius: 10px;
+  transition-duration: 1s;
+}
 .header-bg {
   background-color: #256cb2 !important;
   border-radius: 10px;

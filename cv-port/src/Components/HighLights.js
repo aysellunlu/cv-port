@@ -23,6 +23,7 @@ function HighLights() {
               <Row className="col-lg-12 pb-5">
                 <Col>
                   <div className="card">
+                    <a href="/ilan-detay:id">
                     <div className="text-center mb-4 mt-4">
                       <Image src={CardImg} width="50%" />
                     </div>
@@ -37,10 +38,12 @@ function HighLights() {
                     <div className="city-name text-center mt-2 mb-4">
                       İstanbul, Ankara
                     </div>
+                    </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
+                  <a href="/ilan-detay:id">
                     <div className="text-center mb-4 mt-4">
                       <Image src={CardImg} width="50%" />
                     </div>
@@ -55,10 +58,12 @@ function HighLights() {
                     <div className="city-name text-center mt-2 mb-4">
                       İstanbul, Ankara
                     </div>
+                    </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
+                  <a href="/ilan-detay:id">
                     <div className="text-center mb-4 mt-4">
                       <Image src={CardImg} width="50%" />
                     </div>
@@ -73,10 +78,12 @@ function HighLights() {
                     <div className="city-name text-center mt-2 mb-4">
                       İstanbul, Ankara
                     </div>
+                    </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
+                  <a href="/ilan-detay:id">
                     <div className="text-center mb-4 mt-4">
                       <Image src={CardImg} width="50%" />
                     </div>
@@ -91,10 +98,12 @@ function HighLights() {
                     <div className="city-name text-center mt-2 mb-4">
                       İstanbul, Ankara
                     </div>
+                    </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
+                  <a href="/ilan-detay:id">
                     <div className="text-center mb-4 mt-4">
                       <Image src={CardImg} width="50%" />
                     </div>
@@ -109,6 +118,7 @@ function HighLights() {
                     <div className="city-name text-center mt-2 mb-4">
                       İstanbul, Ankara
                     </div>
+                    </a>
                   </div>
                 </Col>
               </Row>
@@ -117,6 +127,7 @@ function HighLights() {
               <Row className=" pb-5">
                 <Col>
                   <div className="card">
+                  <a href="/ilan-detay:id">
                     <div className="text-center mb-4 mt-4">
                       <Image src={CardImg} width="50%" />
                     </div>
@@ -131,10 +142,12 @@ function HighLights() {
                     <div className="city-name text-center mt-2 mb-4">
                       İstanbul, Ankara
                     </div>
+                    </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
+                  <a href="/ilan-detay:id">
                     <div className="text-center mb-4 mt-4">
                       <Image src={CardImg} width="50%" />
                     </div>
@@ -149,10 +162,12 @@ function HighLights() {
                     <div className="city-name text-center mt-2 mb-4">
                       İstanbul, Ankara
                     </div>
+                    </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
+                  <a href="/ilan-detay:id">
                     <div className="text-center mb-4 mt-4">
                       <Image src={CardImg} width="50%" />
                     </div>
@@ -167,10 +182,12 @@ function HighLights() {
                     <div className="city-name text-center mt-2 mb-4">
                       İstanbul, Ankara
                     </div>
+                    </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
+                  <a href="/ilan-detay:id">
                     <div className="text-center mb-4 mt-4">
                       <Image src={CardImg} width="50%" />
                     </div>
@@ -185,10 +202,12 @@ function HighLights() {
                     <div className="city-name text-center mt-2 mb-4">
                       İstanbul, Ankara
                     </div>
+                    </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
+                  <a href="/ilan-detay:id">
                     <div className="text-center mb-4 mt-4">
                       <Image src={CardImg} width="50%" />
                     </div>
@@ -203,6 +222,7 @@ function HighLights() {
                     <div className="city-name text-center mt-2 mb-4">
                       İstanbul, Ankara
                     </div>
+                    </a>
                   </div>
                 </Col>
               </Row>
@@ -211,6 +231,7 @@ function HighLights() {
               <Row className="col-lg-12 pb-5">
                 <Col>
                   <div className="card">
+                  <a href="/ilan-detay:id">
                     <div className="text-center mb-4 mt-4">
                       <Image src={CardImg} width="50%" />
                     </div>
@@ -225,10 +246,12 @@ function HighLights() {
                     <div className="city-name text-center mt-2 mb-4">
                       İstanbul, Ankara
                     </div>
+                    </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
+                  <a href="/ilan-detay:id">
                     <div className="text-center mb-4 mt-4">
                       <Image src={CardImg} width="50%" />
                     </div>
@@ -243,10 +266,12 @@ function HighLights() {
                     <div className="city-name text-center mt-2 mb-4">
                       İstanbul, Ankara
                     </div>
+                    </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
+                  <a href="/ilan-detay:id">
                     <div className="text-center mb-4 mt-4">
                       <Image src={CardImg} width="50%" />
                     </div>
@@ -261,10 +286,12 @@ function HighLights() {
                     <div className="city-name text-center mt-2 mb-4">
                       İstanbul, Ankara
                     </div>
+                    </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
+                  <a href="/ilan-detay:id">
                     <div className="text-center mb-4 mt-4">
                       <Image src={CardImg} width="50%" />
                     </div>
@@ -279,10 +306,12 @@ function HighLights() {
                     <div className="city-name text-center mt-2 mb-4">
                       İstanbul, Ankara
                     </div>
+                    </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
+                  <a href="/ilan-detay:id">
                     <div className="text-center mb-4 mt-4">
                       <Image src={CardImg} width="50%" />
                     </div>
@@ -297,6 +326,7 @@ function HighLights() {
                     <div className="city-name text-center mt-2 mb-4">
                       İstanbul, Ankara
                     </div>
+                    </a>
                   </div>
                 </Col>
               </Row>

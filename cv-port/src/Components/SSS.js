@@ -9,6 +9,7 @@ import SSSImg from "../img/sssimg.jpg";
 function SSS() {
   return (
     <Container type="button">
+      <a href="/sikca-sorulan-sorular">
       <Row>
         <Col>
           <Image src={LineSSS} />
@@ -22,6 +23,7 @@ function SSS() {
           <Image src={SSSImg} width="100%" />
         </div>
       </Col>
+      </a>
     </Container>
   );
 }

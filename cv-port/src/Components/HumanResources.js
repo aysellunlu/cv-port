@@ -9,6 +9,7 @@ import HRImg from "../img/blogimg.jpg";
 function HumanResources() {
   return (
     <Container type="button">
+      <a href="/insan-kaynaklari-blog">
       <Row>
         <Col>
           <div className="hr-header">İnsan Kaynakları Blog</div>
@@ -22,6 +23,7 @@ function HumanResources() {
           <Image src={HRImg} width="100%" />
         </div>
       </Col>
+      </a>
     </Container>
   );
 }

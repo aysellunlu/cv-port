@@ -21,10 +21,6 @@ function MainPage() {
         <div className="banner-style">
            <Image src={Banner} width="100%" />
         </div>
-        
-        {/* <div >
-          <Image src={MainImg1} width="100%" />
-        </div> */}
         <Destination/>
         <AnnouncementMain />
         <HighLights />
