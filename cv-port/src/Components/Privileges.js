@@ -4,7 +4,7 @@ import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import "../Styles/MainPage.css";
 
-function Privileges() {
+const Privileges = () => {
   return (
     <React.Fragment>
       <Container>
@@ -66,6 +66,6 @@ function Privileges() {
       </Container>
     </React.Fragment>
   );
-}
+};
 
 export default Privileges;

@@ -3,7 +3,7 @@ import { Container, Col, Row, Button, Form } from "react-bootstrap";
 import HeaderLogo from "../img/page-header-logo.svg";
 import "../Styles/BeDealer.css";
 
-function BeDealer() {
+const BeDealer = () => {
   return (
     <React.Fragment>
       <Container>

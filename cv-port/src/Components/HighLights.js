@@ -7,7 +7,7 @@ import Col from "react-bootstrap/esm/Col";
 import Image from "react-bootstrap/esm/Image";
 import CardImg from "../img/cardimg.svg";
 
-function HighLights() {
+const HighLights = () => {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
@@ -24,100 +24,100 @@ function HighLights() {
                 <Col>
                   <div className="card">
                     <a href="/ilan-detay:id">
-                    <div className="text-center mb-4 mt-4">
-                      <Image src={CardImg} width="50%" />
-                    </div>
+                      <div className="text-center mb-4 mt-4">
+                        <Image src={CardImg} width="50%" />
+                      </div>
 
-                    <div className="job-style mt-2 mb-5 text-center">
-                      Frontend Developer
-                    </div>
-                    <div className="company-name text-center">
-                      {" "}
-                      Logo Yazılım A.Ş.
-                    </div>
-                    <div className="city-name text-center mt-2 mb-4">
-                      İstanbul, Ankara
-                    </div>
+                      <div className="job-style mt-2 mb-5 text-center">
+                        Frontend Developer
+                      </div>
+                      <div className="company-name text-center">
+                        {" "}
+                        Logo Yazılım A.Ş.
+                      </div>
+                      <div className="city-name text-center mt-2 mb-4">
+                        İstanbul, Ankara
+                      </div>
                     </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
-                  <a href="/ilan-detay:id">
-                    <div className="text-center mb-4 mt-4">
-                      <Image src={CardImg} width="50%" />
-                    </div>
+                    <a href="/ilan-detay:id">
+                      <div className="text-center mb-4 mt-4">
+                        <Image src={CardImg} width="50%" />
+                      </div>
 
-                    <div className="job-style mt-2 mb-5 text-center">
-                      Frontend Developer
-                    </div>
-                    <div className="company-name text-center">
-                      {" "}
-                      Logo Yazılım A.Ş.
-                    </div>
-                    <div className="city-name text-center mt-2 mb-4">
-                      İstanbul, Ankara
-                    </div>
+                      <div className="job-style mt-2 mb-5 text-center">
+                        Frontend Developer
+                      </div>
+                      <div className="company-name text-center">
+                        {" "}
+                        Logo Yazılım A.Ş.
+                      </div>
+                      <div className="city-name text-center mt-2 mb-4">
+                        İstanbul, Ankara
+                      </div>
                     </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
-                  <a href="/ilan-detay:id">
-                    <div className="text-center mb-4 mt-4">
-                      <Image src={CardImg} width="50%" />
-                    </div>
+                    <a href="/ilan-detay:id">
+                      <div className="text-center mb-4 mt-4">
+                        <Image src={CardImg} width="50%" />
+                      </div>
 
-                    <div className="job-style mt-2 mb-5 text-center">
-                      Frontend Developer
-                    </div>
-                    <div className="company-name text-center">
-                      {" "}
-                      Logo Yazılım A.Ş.
-                    </div>
-                    <div className="city-name text-center mt-2 mb-4">
-                      İstanbul, Ankara
-                    </div>
+                      <div className="job-style mt-2 mb-5 text-center">
+                        Frontend Developer
+                      </div>
+                      <div className="company-name text-center">
+                        {" "}
+                        Logo Yazılım A.Ş.
+                      </div>
+                      <div className="city-name text-center mt-2 mb-4">
+                        İstanbul, Ankara
+                      </div>
                     </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
-                  <a href="/ilan-detay:id">
-                    <div className="text-center mb-4 mt-4">
-                      <Image src={CardImg} width="50%" />
-                    </div>
+                    <a href="/ilan-detay:id">
+                      <div className="text-center mb-4 mt-4">
+                        <Image src={CardImg} width="50%" />
+                      </div>
 
-                    <div className="job-style mt-2 mb-5 text-center">
-                      Frontend Developer
-                    </div>
-                    <div className="company-name text-center">
-                      {" "}
-                      Logo Yazılım A.Ş.
-                    </div>
-                    <div className="city-name text-center mt-2 mb-4">
-                      İstanbul, Ankara
-                    </div>
+                      <div className="job-style mt-2 mb-5 text-center">
+                        Frontend Developer
+                      </div>
+                      <div className="company-name text-center">
+                        {" "}
+                        Logo Yazılım A.Ş.
+                      </div>
+                      <div className="city-name text-center mt-2 mb-4">
+                        İstanbul, Ankara
+                      </div>
                     </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
-                  <a href="/ilan-detay:id">
-                    <div className="text-center mb-4 mt-4">
-                      <Image src={CardImg} width="50%" />
-                    </div>
+                    <a href="/ilan-detay:id">
+                      <div className="text-center mb-4 mt-4">
+                        <Image src={CardImg} width="50%" />
+                      </div>
 
-                    <div className="job-style mt-2 mb-5 text-center">
-                      Frontend Developer
-                    </div>
-                    <div className="company-name text-center">
-                      {" "}
-                      Logo Yazılım A.Ş.
-                    </div>
-                    <div className="city-name text-center mt-2 mb-4">
-                      İstanbul, Ankara
-                    </div>
+                      <div className="job-style mt-2 mb-5 text-center">
+                        Frontend Developer
+                      </div>
+                      <div className="company-name text-center">
+                        {" "}
+                        Logo Yazılım A.Ş.
+                      </div>
+                      <div className="city-name text-center mt-2 mb-4">
+                        İstanbul, Ankara
+                      </div>
                     </a>
                   </div>
                 </Col>
@@ -127,101 +127,101 @@ function HighLights() {
               <Row className=" pb-5">
                 <Col>
                   <div className="card">
-                  <a href="/ilan-detay:id">
-                    <div className="text-center mb-4 mt-4">
-                      <Image src={CardImg} width="50%" />
-                    </div>
+                    <a href="/ilan-detay:id">
+                      <div className="text-center mb-4 mt-4">
+                        <Image src={CardImg} width="50%" />
+                      </div>
 
-                    <div className="job-style mt-2 mb-5 text-center">
-                      Frontend Developer
-                    </div>
-                    <div className="company-name text-center">
-                      {" "}
-                      Logo Yazılım A.Ş.
-                    </div>
-                    <div className="city-name text-center mt-2 mb-4">
-                      İstanbul, Ankara
-                    </div>
+                      <div className="job-style mt-2 mb-5 text-center">
+                        Frontend Developer
+                      </div>
+                      <div className="company-name text-center">
+                        {" "}
+                        Logo Yazılım A.Ş.
+                      </div>
+                      <div className="city-name text-center mt-2 mb-4">
+                        İstanbul, Ankara
+                      </div>
                     </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
-                  <a href="/ilan-detay:id">
-                    <div className="text-center mb-4 mt-4">
-                      <Image src={CardImg} width="50%" />
-                    </div>
+                    <a href="/ilan-detay:id">
+                      <div className="text-center mb-4 mt-4">
+                        <Image src={CardImg} width="50%" />
+                      </div>
 
-                    <div className="job-style mt-2 mb-5 text-center">
-                      Frontend Developer
-                    </div>
-                    <div className="company-name text-center">
-                      {" "}
-                      Logo Yazılım A.Ş.
-                    </div>
-                    <div className="city-name text-center mt-2 mb-4">
-                      İstanbul, Ankara
-                    </div>
+                      <div className="job-style mt-2 mb-5 text-center">
+                        Frontend Developer
+                      </div>
+                      <div className="company-name text-center">
+                        {" "}
+                        Logo Yazılım A.Ş.
+                      </div>
+                      <div className="city-name text-center mt-2 mb-4">
+                        İstanbul, Ankara
+                      </div>
                     </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
-                  <a href="/ilan-detay:id">
-                    <div className="text-center mb-4 mt-4">
-                      <Image src={CardImg} width="50%" />
-                    </div>
+                    <a href="/ilan-detay:id">
+                      <div className="text-center mb-4 mt-4">
+                        <Image src={CardImg} width="50%" />
+                      </div>
 
-                    <div className="job-style mt-2 mb-5 text-center">
-                      Frontend Developer
-                    </div>
-                    <div className="company-name text-center">
-                      {" "}
-                      Logo Yazılım A.Ş.
-                    </div>
-                    <div className="city-name text-center mt-2 mb-4">
-                      İstanbul, Ankara
-                    </div>
+                      <div className="job-style mt-2 mb-5 text-center">
+                        Frontend Developer
+                      </div>
+                      <div className="company-name text-center">
+                        {" "}
+                        Logo Yazılım A.Ş.
+                      </div>
+                      <div className="city-name text-center mt-2 mb-4">
+                        İstanbul, Ankara
+                      </div>
                     </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
-                  <a href="/ilan-detay:id">
-                    <div className="text-center mb-4 mt-4">
-                      <Image src={CardImg} width="50%" />
-                    </div>
+                    <a href="/ilan-detay:id">
+                      <div className="text-center mb-4 mt-4">
+                        <Image src={CardImg} width="50%" />
+                      </div>
 
-                    <div className="job-style mt-2 mb-5 text-center">
-                      Frontend Developer
-                    </div>
-                    <div className="company-name text-center">
-                      {" "}
-                      Logo Yazılım A.Ş.
-                    </div>
-                    <div className="city-name text-center mt-2 mb-4">
-                      İstanbul, Ankara
-                    </div>
+                      <div className="job-style mt-2 mb-5 text-center">
+                        Frontend Developer
+                      </div>
+                      <div className="company-name text-center">
+                        {" "}
+                        Logo Yazılım A.Ş.
+                      </div>
+                      <div className="city-name text-center mt-2 mb-4">
+                        İstanbul, Ankara
+                      </div>
                     </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
-                  <a href="/ilan-detay:id">
-                    <div className="text-center mb-4 mt-4">
-                      <Image src={CardImg} width="50%" />
-                    </div>
+                    <a href="/ilan-detay:id">
+                      <div className="text-center mb-4 mt-4">
+                        <Image src={CardImg} width="50%" />
+                      </div>
 
-                    <div className="job-style mt-2 mb-5 text-center">
-                      Frontend Developer
-                    </div>
-                    <div className="company-name text-center">
-                      {" "}
-                      Logo Yazılım A.Ş.
-                    </div>
-                    <div className="city-name text-center mt-2 mb-4">
-                      İstanbul, Ankara
-                    </div>
+                      <div className="job-style mt-2 mb-5 text-center">
+                        Frontend Developer
+                      </div>
+                      <div className="company-name text-center">
+                        {" "}
+                        Logo Yazılım A.Ş.
+                      </div>
+                      <div className="city-name text-center mt-2 mb-4">
+                        İstanbul, Ankara
+                      </div>
                     </a>
                   </div>
                 </Col>
@@ -231,101 +231,101 @@ function HighLights() {
               <Row className="col-lg-12 pb-5">
                 <Col>
                   <div className="card">
-                  <a href="/ilan-detay:id">
-                    <div className="text-center mb-4 mt-4">
-                      <Image src={CardImg} width="50%" />
-                    </div>
+                    <a href="/ilan-detay:id">
+                      <div className="text-center mb-4 mt-4">
+                        <Image src={CardImg} width="50%" />
+                      </div>
 
-                    <div className="job-style mt-2 mb-5 text-center">
-                      Frontend Developer
-                    </div>
-                    <div className="company-name text-center">
-                      {" "}
-                      Logo Yazılım A.Ş.
-                    </div>
-                    <div className="city-name text-center mt-2 mb-4">
-                      İstanbul, Ankara
-                    </div>
+                      <div className="job-style mt-2 mb-5 text-center">
+                        Frontend Developer
+                      </div>
+                      <div className="company-name text-center">
+                        {" "}
+                        Logo Yazılım A.Ş.
+                      </div>
+                      <div className="city-name text-center mt-2 mb-4">
+                        İstanbul, Ankara
+                      </div>
                     </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
-                  <a href="/ilan-detay:id">
-                    <div className="text-center mb-4 mt-4">
-                      <Image src={CardImg} width="50%" />
-                    </div>
+                    <a href="/ilan-detay:id">
+                      <div className="text-center mb-4 mt-4">
+                        <Image src={CardImg} width="50%" />
+                      </div>
 
-                    <div className="job-style mt-2 mb-5 text-center">
-                      Frontend Developer
-                    </div>
-                    <div className="company-name text-center">
-                      {" "}
-                      Logo Yazılım A.Ş.
-                    </div>
-                    <div className="city-name text-center mt-2 mb-4">
-                      İstanbul, Ankara
-                    </div>
+                      <div className="job-style mt-2 mb-5 text-center">
+                        Frontend Developer
+                      </div>
+                      <div className="company-name text-center">
+                        {" "}
+                        Logo Yazılım A.Ş.
+                      </div>
+                      <div className="city-name text-center mt-2 mb-4">
+                        İstanbul, Ankara
+                      </div>
                     </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
-                  <a href="/ilan-detay:id">
-                    <div className="text-center mb-4 mt-4">
-                      <Image src={CardImg} width="50%" />
-                    </div>
+                    <a href="/ilan-detay:id">
+                      <div className="text-center mb-4 mt-4">
+                        <Image src={CardImg} width="50%" />
+                      </div>
 
-                    <div className="job-style mt-2 mb-5 text-center">
-                      Frontend Developer
-                    </div>
-                    <div className="company-name text-center">
-                      {" "}
-                      Logo Yazılım A.Ş.
-                    </div>
-                    <div className="city-name text-center mt-2 mb-4">
-                      İstanbul, Ankara
-                    </div>
+                      <div className="job-style mt-2 mb-5 text-center">
+                        Frontend Developer
+                      </div>
+                      <div className="company-name text-center">
+                        {" "}
+                        Logo Yazılım A.Ş.
+                      </div>
+                      <div className="city-name text-center mt-2 mb-4">
+                        İstanbul, Ankara
+                      </div>
                     </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
-                  <a href="/ilan-detay:id">
-                    <div className="text-center mb-4 mt-4">
-                      <Image src={CardImg} width="50%" />
-                    </div>
+                    <a href="/ilan-detay:id">
+                      <div className="text-center mb-4 mt-4">
+                        <Image src={CardImg} width="50%" />
+                      </div>
 
-                    <div className="job-style mt-2 mb-5 text-center">
-                      Frontend Developer
-                    </div>
-                    <div className="company-name text-center">
-                      {" "}
-                      Logo Yazılım A.Ş.
-                    </div>
-                    <div className="city-name text-center mt-2 mb-4">
-                      İstanbul, Ankara
-                    </div>
+                      <div className="job-style mt-2 mb-5 text-center">
+                        Frontend Developer
+                      </div>
+                      <div className="company-name text-center">
+                        {" "}
+                        Logo Yazılım A.Ş.
+                      </div>
+                      <div className="city-name text-center mt-2 mb-4">
+                        İstanbul, Ankara
+                      </div>
                     </a>
                   </div>
                 </Col>
                 <Col>
                   <div className="card">
-                  <a href="/ilan-detay:id">
-                    <div className="text-center mb-4 mt-4">
-                      <Image src={CardImg} width="50%" />
-                    </div>
+                    <a href="/ilan-detay:id">
+                      <div className="text-center mb-4 mt-4">
+                        <Image src={CardImg} width="50%" />
+                      </div>
 
-                    <div className="job-style mt-2 mb-5 text-center">
-                      Frontend Developer
-                    </div>
-                    <div className="company-name text-center">
-                      {" "}
-                      Logo Yazılım A.Ş.
-                    </div>
-                    <div className="city-name text-center mt-2 mb-4">
-                      İstanbul, Ankara
-                    </div>
+                      <div className="job-style mt-2 mb-5 text-center">
+                        Frontend Developer
+                      </div>
+                      <div className="company-name text-center">
+                        {" "}
+                        Logo Yazılım A.Ş.
+                      </div>
+                      <div className="city-name text-center mt-2 mb-4">
+                        İstanbul, Ankara
+                      </div>
                     </a>
                   </div>
                 </Col>
@@ -336,6 +336,6 @@ function HighLights() {
       </div>
     </React.Fragment>
   );
-}
+};
 
 export default HighLights;

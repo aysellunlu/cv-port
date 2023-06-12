@@ -7,7 +7,7 @@ import "../Styles/CompanyLogin.css";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/esm/Button";
 
-function UserLogin() {
+const UserLogin = () => {
   return (
     <React.Fragment>
       <Container>
@@ -93,6 +93,6 @@ function UserLogin() {
       </Container>
     </React.Fragment>
   );
-}
+};
 
 export default UserLogin;

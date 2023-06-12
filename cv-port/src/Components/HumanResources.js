@@ -6,26 +6,26 @@ import Image from "react-bootstrap/esm/Image";
 import LineHR from "../img/lineHR.svg";
 import HRImg from "../img/blogimg.jpg";
 
-function HumanResources() {
+const HumanResources = () => {
   return (
     <Container type="button">
       <a href="/insan-kaynaklari-blog">
-      <Row>
+        <Row>
+          <Col>
+            <div className="hr-header">İnsan Kaynakları Blog</div>
+          </Col>
+          <Col>
+            <Image src={LineHR} />
+          </Col>
+        </Row>
         <Col>
-          <div className="hr-header">İnsan Kaynakları Blog</div>
+          <div className="mb-2 mt-4">
+            <Image src={HRImg} width="100%" />
+          </div>
         </Col>
-        <Col>
-          <Image src={LineHR} />
-        </Col>
-      </Row>
-      <Col>
-        <div className="mb-2 mt-4">
-          <Image src={HRImg} width="100%" />
-        </div>
-      </Col>
       </a>
     </Container>
   );
-}
+};
 
 export default HumanResources;

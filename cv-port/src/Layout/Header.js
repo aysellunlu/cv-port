@@ -10,7 +10,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Container from "react-bootstrap/esm/Container";
 
-function Header() {
+const Header = () => {
   return (
     <Container>
       <Row className="mt-2 line-header">
@@ -62,59 +62,59 @@ function Header() {
         </Col>
       </Row>
       <div>
-      <Row className="mt-3 text-center">
-        <Col>
-        <a href="/anasayfa">
-          <div className="tab-menu-text" type="button" >
-            Anasayfa
-          </div>
-          </a>
-        </Col>
-        <Col>
-          <div className="tab-menu-text" type="button">
-            İş İlanları
-          </div>
-        </Col>
-        <Col>
-        <a href="hakkimizda">
-          <div className="tab-menu-text" type="button">
-            Hakkımızda
-          </div>
-          </a>
-        </Col>
-        <Col>
-        <a href="/sikca-sorulan-sorular">
-          <div className="tab-menu-text" type="button">
-            S.S.S.
-          </div>
-          </a>
-        </Col>
-        <Col>
-          <div className="tab-menu-text" type="button">
-            İletişim ve Ulaşım
-          </div>
-        </Col>
-        <Col>
-          <div className="tab-menu-text" type="button">
-            Bayi Listemiz
-          </div>
-        </Col>
-        <Col>
-          <div className="tab-menu-text" type="button">
-            Online Görüşme
-          </div>
-        </Col>
-        <Col>
-        <a href="/ilan-ver">
-          <div className="tab-menu-text" type="button">
-            İlan Ver
-          </div>
-          </a>
-        </Col>
-      </Row>
+        <Row className="mt-3 text-center">
+          <Col>
+            <a href="/anasayfa">
+              <div className="tab-menu-text" type="button">
+                Anasayfa
+              </div>
+            </a>
+          </Col>
+          <Col>
+            <div className="tab-menu-text" type="button">
+              İş İlanları
+            </div>
+          </Col>
+          <Col>
+            <a href="hakkimizda">
+              <div className="tab-menu-text" type="button">
+                Hakkımızda
+              </div>
+            </a>
+          </Col>
+          <Col>
+            <a href="/sikca-sorulan-sorular">
+              <div className="tab-menu-text" type="button">
+                S.S.S.
+              </div>
+            </a>
+          </Col>
+          <Col>
+            <div className="tab-menu-text" type="button">
+              İletişim ve Ulaşım
+            </div>
+          </Col>
+          <Col>
+            <div className="tab-menu-text" type="button">
+              Bayi Listemiz
+            </div>
+          </Col>
+          <Col>
+            <div className="tab-menu-text" type="button">
+              Online Görüşme
+            </div>
+          </Col>
+          <Col>
+            <a href="/ilan-ver">
+              <div className="tab-menu-text" type="button">
+                İlan Ver
+              </div>
+            </a>
+          </Col>
+        </Row>
       </div>
     </Container>
   );
-}
+};
 
 export default Header;

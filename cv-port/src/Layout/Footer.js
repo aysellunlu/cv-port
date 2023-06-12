@@ -15,7 +15,7 @@ import Mail from "../img/mail.svg";
 import Phone from "../img/phone.svg";
 import FooterLogo from "../img/footer-logo.svg";
 
-function Footer() {
+const Footer = () => {
   return (
     <React.Fragment>
       <div className="mt-5 footer-bg-color">
@@ -55,13 +55,13 @@ function Footer() {
               <div className="col-8"></div>
               <div className="col justify-content-end row">
                 <div className="col-4">
-                  <img src={Mail} width={25}/>
+                  <img src={Mail} width={25} />
                 </div>
                 <div className="col-lg-8 phone-text">info@cvport.com</div>
               </div>
               <div className="col justify-content-end row">
                 <div className="col-4">
-                  <img src={Phone} width={25}/>
+                  <img src={Phone} width={25} />
                 </div>
                 <div className="col-lg-8 phone-text">0555 555 55 55</div>
               </div>
@@ -220,6 +220,6 @@ function Footer() {
       </div>
     </React.Fragment>
   );
-}
+};
 
 export default Footer;

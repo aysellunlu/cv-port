@@ -10,8 +10,9 @@ import BeDealer from "./Pages/BeDealer";
 import JobPostingPackage from "./Pages/JobPostingPackage";
 import AboutUs from "./Pages/AboutUs";
 import SSSPage from "./Pages/SSSPage";
+import HRBlogs from "./Pages/HRBlogs";
 
-function App() {
+const App = () => {
   return (
     <React.Fragment>
       <Header />
@@ -24,12 +25,13 @@ function App() {
           <Route path="/bayi-ol" element={<BeDealer />} />
           <Route path="/ilan-ver" element={<JobPostingPackage />} />
           <Route path="/hakkimizda" element={<AboutUs />} />
-          <Route path="/sikca-sorulan-sorular" element={<SSSPage/>} />
+          <Route path="/sikca-sorulan-sorular" element={<SSSPage />} />
+          <Route path="/insan-kaynaklari-blog" element={<HRBlogs />} />
         </Routes>
       </BrowserRouter>
       <Footer />
     </React.Fragment>
   );
-}
+};
 
 export default App;

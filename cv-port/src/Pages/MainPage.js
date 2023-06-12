@@ -14,14 +14,14 @@ import Container from "react-bootstrap/esm/Container";
 import Privileges from "../Components/Privileges";
 import Destination from "../Components/Destination";
 
-function MainPage() {
+const MainPage = () => {
   return (
     <React.Fragment>
       <Container>
         <div className="banner-style">
-           <Image src={Banner} width="100%" />
+          <Image src={Banner} width="100%" />
         </div>
-        <Destination/>
+        <Destination />
         <AnnouncementMain />
         <HighLights />
       </Container>
@@ -39,6 +39,6 @@ function MainPage() {
       <Privileges />
     </React.Fragment>
   );
-}
+};
 
 export default MainPage;
