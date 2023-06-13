@@ -11,6 +11,11 @@ import JobPostingPackage from "./Pages/JobPostingPackage";
 import AboutUs from "./Pages/AboutUs";
 import SSSPage from "./Pages/SSSPage";
 import HRBlogs from "./Pages/HRBlogs";
+import HRBlogDetails from "./Pages/HRBlogDetails";
+import CreateUserProfile from "./Pages/CreateUserProfile";
+import CreateCompanyProfile from "./Pages/CreateCompanyProfile";
+import UserProfile from "./Pages/UserProfile";
+import CompanyProfile from "./Pages/CompanyProfile";
 
 const App = () => {
   return (
@@ -27,6 +32,12 @@ const App = () => {
           <Route path="/hakkimizda" element={<AboutUs />} />
           <Route path="/sikca-sorulan-sorular" element={<SSSPage />} />
           <Route path="/insan-kaynaklari-blog" element={<HRBlogs />} />
+          <Route path="/insan-kaynaklari-blog-detay:id" element={<HRBlogDetails />} />
+          <Route path="/kullanici-profili-olustur" element={<CreateUserProfile />} />
+           <Route path="/firma-profili-olustur" element={<CreateCompanyProfile />} />
+           <Route path="/kullanici-profili" element={<UserProfile />} />
+           <Route path="/firma-profili" element={<CompanyProfile />} />
+          
         </Routes>
       </BrowserRouter>
       <Footer />

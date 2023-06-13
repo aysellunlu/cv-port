@@ -6,7 +6,6 @@
   color: #194979;
   border-radius: 10px;
   box-shadow: 0px 5px 100px 10px #ebf2fa;
-  
 }
 .job-posting-card-second:hover {
   background-color: white;
@@ -17,9 +16,9 @@
   border-radius: 10px;
   box-shadow: 0px 5px 100px 10px #256cb36c;
   transition-duration: 2s;
-  -ms-transform: scale(1.2); 
-  -webkit-transform: scale(1.2); 
-   transform: scale(1.2); 
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 .job-second-card-bg {
   background-color: #f3f6f8;
@@ -53,9 +52,9 @@
   color: #194979;
   border-radius: 10px;
   box-shadow: 0px 20px 100px 20px #256cb36c;
-  -ms-transform: scale(1.2); 
-  -webkit-transform: scale(1.2); 
-   transform: scale(1.2); 
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
   transition-duration: 2s;
 }
 .job-first-card-bg {
@@ -93,11 +92,11 @@
   font-family: "Jost", sans-serif !important;
 }
 .more-job-text:hover {
-    color: #7baad8;
-    font-family: "Jost", sans-serif !important;
-    font-weight: 500;
-    transition-duration: 1s ;
-  }
+  color: #7baad8;
+  font-family: "Jost", sans-serif !important;
+  font-weight: 500;
+  transition-duration: 1s;
+}
 .line-job {
   border-bottom: #cddbe9 1px solid;
 }
@@ -106,38 +105,38 @@
   border-radius: 10px;
   border: 1px #fff solid;
   font-family: "Jost", sans-serif !important;
-  box-shadow: 0px 4px 100px 20px #EAEFF4;
+  box-shadow: 0px 4px 100px 20px #eaeff4;
 }
-.meet-dealer-header{
-    color: #256CB2;
-    font-weight: 500;
-    font-size: 24px;
-    font-family: "Jost", sans-serif !important;
+.meet-dealer-header {
+  color: #256cb2;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Jost", sans-serif !important;
 }
-.meet-dealer-text{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 40px;
+.meet-dealer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
 }
-.meet-box{
-    background-color: #fff;
-    color: #256CB2;
-    font-weight: 700;
-    font-family: "Jost", sans-serif !important;
-border-radius: 20px;
-box-shadow: 0px 4px 100px 20px #c6d8f288;
-font-size: 14px;
+.meet-box {
+  background-color: #fff;
+  color: #256cb2;
+  font-weight: 700;
+  font-family: "Jost", sans-serif !important;
+  border-radius: 20px;
+  box-shadow: 0px 4px 100px 20px #c6d8f288;
+  font-size: 14px;
 }
-.meet-box:hover{
-    background-color:#e5edf6;
-    color: #256CB2;
-    font-weight: 700;
-    font-family: "Jost", sans-serif !important;
-border-radius: 20px;
-box-shadow: 0px 4px 100px 20px #b5cdef;
-font-size: 14px;
-transition-duration: 1s;
+.meet-box:hover {
+  background-color: #e5edf6;
+  color: #256cb2;
+  font-weight: 700;
+  font-family: "Jost", sans-serif !important;
+  border-radius: 20px;
+  box-shadow: 0px 4px 100px 20px #b5cdef;
+  font-size: 14px;
+  transition-duration: 1s;
 }
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }

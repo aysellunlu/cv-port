@@ -1,0 +1,21 @@
+.back-text-style {
+  color: #a6c5e3;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+}
+.hr-detail-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 100px 20px rgba(214, 225, 235, 0.49);
+}
+.hr-detail-title {
+  color: #256cb2;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+}
+.hr-detail-text {
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
