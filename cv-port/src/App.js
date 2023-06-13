@@ -16,6 +16,7 @@ import CreateUserProfile from "./Pages/CreateUserProfile";
 import CreateCompanyProfile from "./Pages/CreateCompanyProfile";
 import UserProfile from "./Pages/UserProfile";
 import CompanyProfile from "./Pages/CompanyProfile";
+import BusinessPartners from "./Pages/BusinessPartners";
 
 const App = () => {
   return (
@@ -34,9 +35,10 @@ const App = () => {
           <Route path="/insan-kaynaklari-blog" element={<HRBlogs />} />
           <Route path="/insan-kaynaklari-blog-detay:id" element={<HRBlogDetails />} />
           <Route path="/kullanici-profili-olustur" element={<CreateUserProfile />} />
-           <Route path="/firma-profili-olustur" element={<CreateCompanyProfile />} />
-           <Route path="/kullanici-profili" element={<UserProfile />} />
-           <Route path="/firma-profili" element={<CompanyProfile />} />
+          <Route path="/firma-profili-olustur" element={<CreateCompanyProfile />} />
+          <Route path="/kullanici-profili" element={<UserProfile />} />
+          <Route path="/firma-profili" element={<CompanyProfile />} />
+          <Route path="/is-ortaklarimiz" element={<BusinessPartners />} />
           
         </Routes>
       </BrowserRouter>

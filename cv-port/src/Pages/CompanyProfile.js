@@ -155,7 +155,6 @@ const CompanyProfile = () => {
             </div>
           </Col>
         </Row>
-  
       </Container>
     </React.Fragment>
   );
