@@ -32,12 +32,14 @@ const UserLogin = () => {
             <div className="mt-5 mb-5">
               <Row>
                 <Col lg={6} xs={6}>
-                  <div
-                    className="nonselected-login text-center pb-5 pt-5 mt-3"
-                    type="button"
-                  >
-                    <div className="mt-5 mb-5 pt-5 pb-5">FİRMA GİRİŞİ</div>
-                  </div>
+                  <a href="/firma-girisi">
+                    <div
+                      className="nonselected-login text-center pb-5 pt-5 mt-3"
+                      type="button"
+                    >
+                      <div className="mt-5 mb-5 pt-5 pb-5">FİRMA GİRİŞİ</div>
+                    </div>
+                  </a>
                 </Col>
                 <Col lg={6} xs={6} className="">
                   <div

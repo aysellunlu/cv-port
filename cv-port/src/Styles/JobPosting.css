@@ -1,0 +1,74 @@
+.filter-header {
+  color: #194979;
+  font-family: "Jost", sans-serif;
+  font-size: 24px;
+  border-bottom: #eef2f5 1px solid;
+}
+.filter-card-bg {
+  background-color: #eef2f5;
+  border-radius: 10px;
+}
+.filter-title {
+  color: #256cb2;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.sponsor-title {
+  color: #256cb2;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.sponsor-bg {
+  border-radius: 10px;
+  border: 1px solid #e7eef4;
+}
+.job-card-bg{
+    box-shadow: 0px 4px 50px #E6EBEF;
+    background-color: white;
+    border-radius: 10px;
+}
+.job-title{
+    color: #52575C;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+}
+.job-city{
+    color: #94A3B0;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+}
+.job-time{
+    color: #B5C5D3;
+    font-size: 12px;
+    font-family: "Jost", sans-serif;
+}
+.job-company{
+    color: #60676D;
+    font-family: "Jost", sans-serif;
+}
+.working-type{
+    color: #6F94B8;
+    font-size: 12px;
+}
+.job-details-btn{
+    background-color: white;
+    border: #E7EEF5 1px solid;
+    box-shadow: 0px 4px 100px #E7EEF4;
+    border-radius: 5px;
+    font-family: "Jost", sans-serif;
+    color: #256cb2;
+    font-weight: 500;
+}
+.job-details-btn:hover{
+    background-color: #256cb2;
+    border: #256cb2 1px solid;
+    box-shadow: 0px 4px 100px #E7EEF4;
+    border-radius: 5px;
+    font-family: "Jost", sans-serif;
+    color: white;
+    font-weight: 500;
+    transition-duration: 1s ;
+}

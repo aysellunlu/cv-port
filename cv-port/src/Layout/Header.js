@@ -26,26 +26,26 @@ const Header = () => {
                     title="Giriş Yap / Üye Ol "
                     id="basic-nav-dropdown"
                   >
-                    <NavDropdown.Item href="#action/3.1">
+                    <NavDropdown.Item href="kullanici-profili-olustur">
                       <Button className="signup-btn px-5 ">
                         <div className="col px-2"> Üye Ol</div>
                       </Button>
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/kullanici-girisi">
-                      <Button className="signin-btn">
+                      <Button className="signin-btn" >
                         <div className="col">
                           <span> Kullanıcı/Firma Giriş</span>
                         </div>
                       </Button>
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">
-                      Ücretsiz Üye Ol
+                    <NavDropdown.Item href="/firma-profili-olustur">
+                      Firma Profili Oluştur
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.4">
+                    <NavDropdown.Item href="firma-girisi">
                       İşveren Giriş
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.4">
+                    <NavDropdown.Item href="ilan-ver">
                       İlan Paketi Al
                     </NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.4">
@@ -71,9 +71,11 @@ const Header = () => {
             </a>
           </Col>
           <Col>
+          <a href="/is-ilanlari">
             <div className="tab-menu-text" type="button">
               İş İlanları
             </div>
+            </a>
           </Col>
           <Col>
             <a href="hakkimizda">

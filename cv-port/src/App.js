@@ -17,6 +17,8 @@ import CreateCompanyProfile from "./Pages/CreateCompanyProfile";
 import UserProfile from "./Pages/UserProfile";
 import CompanyProfile from "./Pages/CompanyProfile";
 import BusinessPartners from "./Pages/BusinessPartners";
+import JobPosting from "./Pages/JobPosting";
+import JobPostingDetails from "./Pages/JobPostingDetails";
 
 const App = () => {
   return (
@@ -39,6 +41,8 @@ const App = () => {
           <Route path="/kullanici-profili" element={<UserProfile />} />
           <Route path="/firma-profili" element={<CompanyProfile />} />
           <Route path="/is-ortaklarimiz" element={<BusinessPartners />} />
+          <Route path="/is-ilanlari" element={<JobPosting />} />
+          <Route path="/ilan-detay:id" element={<JobPostingDetails />} />
           
         </Routes>
       </BrowserRouter>
