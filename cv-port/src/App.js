@@ -19,6 +19,7 @@ import CompanyProfile from "./Pages/CompanyProfile";
 import BusinessPartners from "./Pages/BusinessPartners";
 import JobPosting from "./Pages/JobPosting";
 import JobPostingDetails from "./Pages/JobPostingDetails";
+import Contact from "./Pages/Contact";
 
 const App = () => {
   return (
@@ -43,6 +44,7 @@ const App = () => {
           <Route path="/is-ortaklarimiz" element={<BusinessPartners />} />
           <Route path="/is-ilanlari" element={<JobPosting />} />
           <Route path="/ilan-detay:id" element={<JobPostingDetails />} />
+          <Route path="/iletisim-ulasim" element={<Contact />} />
           
         </Routes>
       </BrowserRouter>

@@ -32,7 +32,7 @@ const Header = () => {
                       </Button>
                     </NavDropdown.Item>
                     <NavDropdown.Item href="/kullanici-girisi">
-                      <Button className="signin-btn" >
+                      <Button className="signin-btn">
                         <div className="col">
                           <span> Kullanıcı/Firma Giriş</span>
                         </div>
@@ -71,10 +71,10 @@ const Header = () => {
             </a>
           </Col>
           <Col>
-          <a href="/is-ilanlari">
-            <div className="tab-menu-text" type="button">
-              İş İlanları
-            </div>
+            <a href="/is-ilanlari">
+              <div className="tab-menu-text" type="button">
+                İş İlanları
+              </div>
             </a>
           </Col>
           <Col>
@@ -92,9 +92,11 @@ const Header = () => {
             </a>
           </Col>
           <Col>
-            <div className="tab-menu-text" type="button">
-              İletişim ve Ulaşım
-            </div>
+            <a href="/iletisim-ulasim">
+              <div className="tab-menu-text" type="button">
+                İletişim ve Ulaşım
+              </div>
+            </a>
           </Col>
           <Col>
             <div className="tab-menu-text" type="button">
