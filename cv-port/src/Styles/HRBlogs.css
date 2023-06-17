@@ -1,20 +1,20 @@
 @keyframes hrcard-move {
-    from {
-      color: #9e9e9e;
-      background-color: #deeefe;
-      font-family: "Jost", sans-serif;
-      font-weight: 600 !important;
-      font-size: 12px;
-      padding-top: 100px;
-    }
-    to {
-      color: #52575C;
-      background-color: white;
-      font-family: "Jost", sans-serif;
-      font-weight: 600 !important;
-      padding-top: 0px;
-    }
+  from {
+    color: #9e9e9e;
+    background-color: #deeefe;
+    font-family: "Jost", sans-serif;
+    font-weight: 600 !important;
+    font-size: 12px;
+    padding-top: 100px;
   }
+  to {
+    color: #52575c;
+    background-color: white;
+    font-family: "Jost", sans-serif;
+    font-weight: 600 !important;
+    padding-top: 0px;
+  }
+}
 .card-hr-blogs {
   background-color: white;
   box-shadow: 0px 4px 100px 20px rgba(214, 225, 235, 0.49);
@@ -38,12 +38,12 @@
   color: #52575c;
 }
 .card-hr-blogs:hover {
-    /* background-color: #dfecf9; */
-    background-color: white;
-    box-shadow: 0px 4px 100px 20px rgba(70, 122, 172, 0.822);
-    border-radius: 10px;
-    transition-duration: 1s;
-    -ms-transform: scale(1.2); 
- -webkit-transform: scale(1.2); 
-  transform: scale(1.2); 
-  }
+  /* background-color: #dfecf9; */
+  background-color: white;
+  box-shadow: 0px 4px 100px 20px rgba(70, 122, 172, 0.822);
+  border-radius: 10px;
+  transition-duration: 1s;
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}

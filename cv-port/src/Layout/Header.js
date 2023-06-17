@@ -104,9 +104,11 @@ const Header = () => {
             </div>
           </Col>
           <Col>
-            <div className="tab-menu-text" type="button">
-              Online Görüşme
-            </div>
+            <a href="/online-gorusme">
+              <div className="tab-menu-text" type="button">
+                Online Görüşme
+              </div>
+            </a>
           </Col>
           <Col>
             <a href="/ilan-ver">

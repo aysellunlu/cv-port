@@ -202,9 +202,10 @@ const Footer = () => {
                 <div className="footer-menu-text mb-1" type="button">
                   İlan Ver
                 </div>
+                <a href="/online-gorusme">
                 <div className="footer-menu-text mb-1" type="button">
                   Online Görüşme
-                </div>
+                </div></a>
               </div>
             </Col>
           </Row>

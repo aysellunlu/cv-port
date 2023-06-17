@@ -21,6 +21,9 @@ import JobPosting from "./Pages/JobPosting";
 import JobPostingDetails from "./Pages/JobPostingDetails";
 import Contact from "./Pages/Contact";
 import AydinlatmaMetni from "./Pages/AydinlatmaMetni";
+import MyVideos from "./Pages/MyVideos";
+import CreateVideo from "./Pages/CreateVideo";
+import OnlineInterview from "./Pages/OnlineInterview";
 
 const App = () => {
   return (
@@ -47,6 +50,10 @@ const App = () => {
           <Route path="/ilan-detay:id" element={<JobPostingDetails />} />
           <Route path="/iletisim-ulasim" element={<Contact />} />
           <Route path="/aydinlatma-metni" element={<AydinlatmaMetni />} />
+          <Route path="/videolarim" element={<MyVideos />} />
+          <Route path="/video-olustur" element={<CreateVideo />} />
+          <Route path="/online-gorusme" element={<OnlineInterview />} />
+          
           
         </Routes>
       </BrowserRouter>
