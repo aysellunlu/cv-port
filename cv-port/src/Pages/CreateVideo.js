@@ -7,13 +7,14 @@ import HeaderLogo from "../img/page-header-logo.svg";
 import Mic from "../img/mic.svg";
 import Headphone from "../img/headphone.svg";
 import RecordCircle from "../img/recordcircle.svg";
+import Video from "../videos/video.mp4";
 import { Button } from "react-bootstrap";
 
 const CreateVideo = () => {
   return (
     <React.Fragment>
       <Container>
-        <div className="header-bg mt-4 mb-5">
+        <div className="header-bg mb-5">
           <Row>
             <Col lg={1}>
               <div className="px-4">
@@ -31,25 +32,24 @@ const CreateVideo = () => {
       <Container>
         <div className="text-center">
           <video width="80%" height="70%" controls="controls">
-            <source src="video.mp4" type="video/mp4" />
-            <source src="video.ogg" type="video/ogg" />
+            <source src={Video} type="video/mp4" />
             Tarayıcınız video etiketini desteklemiyor.
           </video>
           <div className="mt-4 text-center mx-5 mb-5">
             <Row>
               <Col>
                 <div type="button">
-                  <img src={Mic} width="50" />
+                  <img src={Mic} width="30" />
                 </div>
               </Col>
               <Col>
                 <div type="button">
-                  <img src={Headphone} width="50" />
+                  <img src={Headphone} width="30" />
                 </div>
               </Col>
               <Col>
                 <div type="button">
-                  <img src={RecordCircle} width="50" />
+                  <img src={RecordCircle} width="30" />
                 </div>
               </Col>
             </Row>

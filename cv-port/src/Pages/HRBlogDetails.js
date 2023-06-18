@@ -9,7 +9,7 @@ const HRBlogDetails = () => {
   return (
     <React.Fragment>
       <Container>
-        <div className="header-bg mt-4 mb-3">
+        <div className="header-bg mb-3">
           <Row>
             <Col lg={1}>
               <div className="px-4">

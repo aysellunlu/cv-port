@@ -43,7 +43,7 @@
 .company-name {
   color: #256cb2;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
 }
 .city-name {
   color: #859db4;
@@ -110,6 +110,13 @@
   border-color: #e7eef5;
   box-shadow: 0px 2px 20px 4px #e7eef5bf;
   transition-duration: 1s;
+}
+.popular-button-mobile {
+  background-color: #256cb2 !important;
+  color: #ffffff !important;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+  border-color: #256cb2 !important;
 }
 .form-control {
   color: #256cb2 !important;

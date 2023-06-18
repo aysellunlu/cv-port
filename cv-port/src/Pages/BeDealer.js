@@ -7,7 +7,7 @@ const BeDealer = () => {
   return (
     <React.Fragment>
       <Container>
-        <div className="header-bg mt-4 mb-5">
+        <div className="header-bg mb-5">
           <Row>
             <Col lg={1}>
               <div className="px-4">

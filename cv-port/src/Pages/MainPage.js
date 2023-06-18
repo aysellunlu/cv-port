@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Image from "react-bootstrap/Image";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
@@ -15,27 +15,43 @@ import Privileges from "../Components/Privileges";
 import Destination from "../Components/Destination";
 
 const MainPage = () => {
+  const [width, setWidth] = useState("");
+
+  useEffect(() => {
+    setWidth(window.innerWidth);
+    console.log(width);
+  }, [width]);
   return (
     <React.Fragment>
       <Container>
-        <div className="banner-style">
-          <Image src={Banner} width="100%" />
-        </div>
+        {width >= 1024 && (
+          <div className="banner-style">
+            <Image src={Banner} width="100%" />
+          </div>
+        )}
         <Destination />
         <AnnouncementMain />
         <HighLights />
       </Container>
-
-      <Container>
-        <Row className="mt-5 mb-5">
-          <Col>
-            <HumanResources />
-          </Col>
-          <Col>
-            <SSS />
-          </Col>
-        </Row>
-      </Container>
+      {width >= 1024 && (
+        <Container>
+          <Row className="mt-5 mb-5">
+            <Col>
+              <HumanResources />
+            </Col>
+            <Col>
+              <SSS />
+            </Col>
+          </Row>
+        </Container>
+      )}
+      {width <= 450 && (
+        <Container>
+          {" "}
+          <HumanResources />
+          <SSS />
+        </Container>
+      )}
       <Privileges />
     </React.Fragment>
   );

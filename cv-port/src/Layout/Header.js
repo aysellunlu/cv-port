@@ -62,7 +62,44 @@ const Header = () => {
         </Col>
       </Row>
       <div>
-        <Row className="mt-3 text-center">
+        <Navbar expand="lg" className="bg-body-tertiary">
+          <Container>
+            {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="me-auto">
+                <Nav.Link href="/anasayfa">
+                  <div className="px-1">Anasayfa</div>
+                </Nav.Link>
+                <Nav.Link href="/is-ilanlari">
+                  <div className="px-1">İş İlanları</div>
+                </Nav.Link>
+                <Nav.Link href="/hakkimizda">
+                  <div className="px-1">Hakkımızda</div>
+                </Nav.Link>
+                <Nav.Link href="/sikca-sorulan-sorular">
+                  <div className="px-1">S.S.S.</div>
+                </Nav.Link>
+                <Nav.Link href="/iletisim-ulasim">
+                  <div className="px-1">İletişim ve Ulaşım</div>
+                </Nav.Link>
+                <Nav.Link href="/bayi-listemiz">
+                  <div className="px-1">Bayi Listemiz</div>
+                </Nav.Link>
+                <Nav.Link href="/online-gorusme">
+                  <div className="px-1">Online Görüşme</div>
+                </Nav.Link>
+                <Nav.Link href="/ilan-ver">
+                  <div className="px-1">İlan Ver</div>
+                </Nav.Link>
+                <Nav.Link href="/insan-kaynaklari-blog">
+                  <div className="px-1">Blog</div>
+                </Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+        {/* <Row className="mt-3 text-center">
           <Col>
             <a href="/anasayfa">
               <div className="tab-menu-text" type="button">
@@ -117,7 +154,7 @@ const Header = () => {
               </div>
             </a>
           </Col>
-        </Row>
+        </Row> */}
       </div>
     </Container>
   );

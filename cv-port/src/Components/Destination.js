@@ -1,9 +1,16 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { Container, Col, Row, Image, Button } from "react-bootstrap";
 
 const Destination = () => {
+  const [width, setWidth] = useState("");
+
+  useEffect(() => {
+    setWidth(window.innerWidth);
+    console.log(width);
+  }, [width]);
   return (
     <React.Fragment>
+      {width >= 1024 && (
       <Row>
         <Col lg={3}>
           <div className="pt-4 pb-4">
@@ -35,6 +42,7 @@ const Destination = () => {
           </div>
         </Col>
       </Row>
+      )}
     </React.Fragment>
   );
 };

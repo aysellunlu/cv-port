@@ -1,9 +1,20 @@
-.nav-link {
+/* .nav-link {
   color: white !important;
   background-color: #256cb2 !important;
   font-size: 14px;
   font-weight: 600 !important;
   border-color: #256cb2 !important;
+  font-family: "Jost", sans-serif;
+  border-radius: 5px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+} */
+.nav-link {
+  color: #256cb2 !important;
+ 
+  font-size: 14px;
+  font-weight: 600 !important;
+  
   font-family: "Jost", sans-serif;
   border-radius: 5px;
   padding-left: 30px !important;
@@ -30,4 +41,18 @@
   font-size: 14px;
   font-family: "Jost", sans-serif;
   font-weight: 400;
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1em !important;
+  height: 1em !important;
+  vertical-align: middle;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  color: #256cb2 !important;
+}
+.navbar-toggler{
+  color: #6ba4de !important;
 }
