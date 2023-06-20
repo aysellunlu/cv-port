@@ -195,18 +195,9 @@ const JobPostingDetails = () => {
         <div>
           <Container>
             <div className="header-bg mb-5">
-              <Row>
-                <Col lg={1}>
-                  <div className="px-4">
-                    <img src={HeaderLogo} width="100" />
-                  </div>
-                </Col>
-                <Col lg={11}>
-                  <div className="text-center page-header-text pb-4 pt-4">
-                    İLAN DETAYLARI
-                  </div>
-                </Col>
-              </Row>
+              <div className="text-center mobile-header-text pb-4 pt-4">
+                İLAN DETAYLARI
+              </div>
             </div>
           </Container>
           <Container>
