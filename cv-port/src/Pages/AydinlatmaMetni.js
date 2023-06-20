@@ -16,7 +16,7 @@ const AydinlatmaMetni = () => {
             </Col>
             <Col lg={11}>
               <div className="text-center page-header-text pb-4 pt-4">
-                İLETİŞİM VE ULAŞIM
+                KVKK
               </div>
             </Col>
           </Row>

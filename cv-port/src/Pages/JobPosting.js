@@ -37,7 +37,7 @@ const JobPosting = () => {
       {width <= 450 && ( // mobile ekran için başlık
         <Container>
           <div className="header-bg mb-3">
-            <div className="text-center page-header-text pb-4 pt-4">
+            <div className="text-center mobile-header-text pb-4 pt-4">
               İŞ İLANLARI
             </div>
           </div>

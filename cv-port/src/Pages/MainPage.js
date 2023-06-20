@@ -13,6 +13,7 @@ import SSS from "../Components/SSS";
 import Container from "react-bootstrap/esm/Container";
 import Privileges from "../Components/Privileges";
 import Destination from "../Components/Destination";
+import MobileBanner from '../img/mobileheader.png';
 
 const MainPage = () => {
   const [width, setWidth] = useState("");
@@ -29,6 +30,11 @@ const MainPage = () => {
             <Image src={Banner} width="100%" />
           </div>
         )}
+{width <= 450 && (
+<div className="banner-style">
+            <Image src={MobileBanner} width="100%" />
+          </div>
+          )}
         <Destination />
         <AnnouncementMain />
         <HighLights />
@@ -47,7 +53,7 @@ const MainPage = () => {
       )}
       {width <= 450 && (
         <Container>
-          {" "}
+          
           <HumanResources />
           <SSS />
         </Container>

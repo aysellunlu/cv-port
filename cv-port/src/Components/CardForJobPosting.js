@@ -1,11 +1,20 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { useState, useEffect } from "react";
 import CompanyLogo from "../img/companyprofilepic.jpg";
 import "../Styles/JobPosting.css";
 const CardForJobPosting = () => {
+
+  const [width, setWidth] = useState("");
+
+  useEffect(() => {
+    setWidth(window.innerWidth);
+    console.log(width);
+  }, [width]);
   return (
     <React.Fragment>
       <Container>
+      {width >= 1024 && (
         <div className="job-card-bg p-4 mb-4">
           <Row>
             <Col lg={3}>
@@ -35,6 +44,7 @@ const CardForJobPosting = () => {
             </Col>
           </Row>
         </div>
+        )}
       </Container>
     </React.Fragment>
   );

@@ -169,6 +169,12 @@
   font-size: 36px;
   font-weight: 600;
 }
+.mobile-header-text{
+  color: #fff;
+  font-family: "Jost", sans-serif !important;
+  font-size:28px;
+  font-weight: 600;
+}
 .btn-primary {
   background-color: #256cb2;
   color: #fff;
