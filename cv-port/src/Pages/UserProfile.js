@@ -217,9 +217,7 @@ const UserProfile = () => {
             <div className="user-profile-card-bg px-2 pt-4 mb-3">
               <Row>
                 <Col lg={10} xs={7}>
-                  <div className="user-profile-card-title ">
-                    TEMEL BİLGİLER
-                  </div>
+                  <div className="user-profile-card-title ">TEMEL BİLGİLER</div>
                   <Button className="edit-profile-btn mb-2 mt-3">
                     Profili Düzenle
                   </Button>
@@ -288,34 +286,31 @@ const UserProfile = () => {
                 Engineer Intern, Web Developer - <b> Enoca </b>
               </div>
             </div>
-            
-              
-                <div className="user-profile-card-bg p-2 mb-3">
-                  <div className="user-profile-card-title pb-4">YETENEKLER</div>
-                  <div className="profile-card-text">
-                    <p>React JS / React Native</p>
-                    <p>Javascript, HTML, CSS</p>
-                    <p>Responsive Design, Bootstrap</p>
-                    <p>Embedded System Development</p>
-                    <p>Figma, Adobe XD</p>
-                    <p>Linux</p>
-                  </div>
-                </div>
-            
-                <div className="user-profile-card-bg p-2 mb-3">
-                  <div className="user-profile-card-title pb-4">
-                    İLGİ ALANLARI
-                  </div>
-                  <div className="profile-card-text">
-                    <p>React JS / React Native</p>
-                    <p>Javascript, HTML, CSS</p>
-                    <p>Responsive Design, Bootstrap</p>
-                    <p>Embedded System Development</p>
-                    <p>Figma, Adobe XD</p>
-                    <p>Linux</p>
-                  </div>
-                </div>
-             
+
+            <div className="user-profile-card-bg p-2 mb-3">
+              <div className="user-profile-card-title pb-4">YETENEKLER</div>
+              <div className="profile-card-text">
+                <p>React JS / React Native</p>
+                <p>Javascript, HTML, CSS</p>
+                <p>Responsive Design, Bootstrap</p>
+                <p>Embedded System Development</p>
+                <p>Figma, Adobe XD</p>
+                <p>Linux</p>
+              </div>
+            </div>
+
+            <div className="user-profile-card-bg p-2 mb-3">
+              <div className="user-profile-card-title pb-4">İLGİ ALANLARI</div>
+              <div className="profile-card-text">
+                <p>React JS / React Native</p>
+                <p>Javascript, HTML, CSS</p>
+                <p>Responsive Design, Bootstrap</p>
+                <p>Embedded System Development</p>
+                <p>Figma, Adobe XD</p>
+                <p>Linux</p>
+              </div>
+            </div>
+
             <div className="user-profile-card-bg p-2 mb-4">
               <div className="user-profile-card-title pb-4">
                 KİŞİSEL MOTİVASYON{" "}
