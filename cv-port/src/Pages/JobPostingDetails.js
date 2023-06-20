@@ -194,7 +194,7 @@ const JobPostingDetails = () => {
       {width <= 450 && (
         <div>
           <Container>
-            <div className="header-bg mb-5">
+            <div className="header-bg mb-3">
               <div className="text-center mobile-header-text pb-4 pt-4">
                 İLAN DETAYLARI
               </div>
